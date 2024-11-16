@@ -1,0 +1,37 @@
+* {
+    /* outline: 1px solid palevioletred; */
+}
+
+:root {
+    min-width: 320px;
+    --custom-theme-color:#dbb456;
+    --custom-secondary-color:#8f6c23;
+    --custom-dark:#231b18;
+    --custom-white:white;
+    --custom-light-brown:#483b34;
+    --custom-dark-brown:#231b18; 
+    --custom-light-gray:#dddad4;
+    --custom-dark-gray:#7b7b7b;
+}
+
+body {
+    background: url(./img/bg-body.png);
+    background-repeat: repeat;
+    min-width: 320px;
+}
+
+.font_oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.font_verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font_raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.font_system-ui {
+    font-family: system-ui, sans-serif; ;
+}
